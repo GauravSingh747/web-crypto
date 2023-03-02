@@ -1,0 +1,125 @@
+@media (max-width: 1150px) {
+  .Chart {
+    margin-left: 2rem;
+  }
+  .header {
+    margin: 4rem 2rem;
+  }
+  .main-div {
+    padding: 0 3rem 0 0;
+  }
+  .map-section {
+    padding: 2rem 0;
+  }
+  .right-div {
+    padding-right: 0;
+  }
+  .features {
+    margin: 2rem 1rem;
+  }
+  .footer {
+    padding: 1.2rem;
+    font-size: 1rem;
+  }
+  .foot-right {
+    padding: 0 20px;
+  }
+  .buy-header {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Chart {
+    margin-left: 0;
+  }
+  .header {
+    margin: 4rem 1rem;
+  }
+  .main-logo {
+    width: 80%;
+  }
+  .nav-link {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .main-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .trades {
+    display: none;
+  }
+
+  .check {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .buy-bitcoin {
+    font-size: 1rem;
+    padding-right: 5px;
+  }
+  .card {
+    height: 500px;
+    width: 360px;
+    border-radius: 48px;
+    padding: 18px;
+    font-size: 22px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 808px) {
+  .map-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem 2rem;
+  }
+  .card {
+    width: auto;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .All {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+  }
+  .grey {
+    font-size: 10px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .comm {
+    display: none;
+  }
+  .main-logo {
+    width: 100%;
+  }
+  #customers td,
+  #customers th {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .foot-right {
+    padding: 0;
+  }
+  .card {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .increase {
+    padding: 12px;
+  }
+}

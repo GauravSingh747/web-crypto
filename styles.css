@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #091838;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-div {
+  background-color: #1b253c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+}
+
+h3 {
+  color: aliceblue;
+}
+
+.nav-link {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+.comm:hover {
+  color: #e7b416;
+}
+.crypto:hover {
+  color: #e7b416;
+}
+.trades:hover {
+  color: #e7b416;
+}
+.main-logo:hover {
+  cursor: pointer;
+  background-color: #00092a;
+  border-radius: 48px;
+}
+/* ============ 2. ========== */
+/* ============ 2. ========== */
+.header {
+  color: white;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 200;
+  margin: 4rem 5rem;
+}
+.money {
+  color: #14ff00;
+}
+.percent {
+  color: #ff0000;
+}
+
+/* ============ 3. tbale  ========== */
+/* ========================== */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#customers td,
+#customers th {
+  padding: 16px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+.grey {
+  font-size: 16px;
+  color: #505663;
+  padding-left: 10px;
+}
+.logo {
+  color: white;
+  padding: 2px 6px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.Chart {
+  margin-left: 6rem;
+}
+
+.dog {
+  transform: translateY(+5px);
+  width: 3%;
+  background-color: #f00500;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+/* ========4========= */
+.All {
+  cursor: pointer;
+  margin: 4rem 0;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #0e9ee8;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.All:hover {
+  background-color: #064c6e;
+}
+.btn {
+  text-align: center;
+}
+
+/* ========  5  ========= */
+/* ========  5  ========= */
+
+.map-section {
+  padding: 2rem 4rem;
+  font-family: Montserrat;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section5 {
+  background-color: #00092a;
+}
+
+.world-map {
+  width: 100%;
+  opacity: 0.4;
+}
+
+.right-div {
+  padding-right: 6rem;
+}
+
+/* === */
+.clarity {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-div {
+  text-align: center;
+  height: 80px;
+  width: 100px;
+  background-color: #0f1535;
+  margin: 20px;
+}
+
+.fa-eye {
+  font-size: 2rem;
+  color: #e03936;
+  padding: 20px;
+}
+
+.shape {
+  font-size: 2rem;
+  color: rgb(59, 118, 59);
+  padding: 20px;
+}
+
+.people {
+  font-size: 2rem;
+  color: purple;
+  padding: 20px;
+}
+
+/* ========  5 features section ========= */
+/* ========  5 features section ========= */
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  margin: 3rem 4rem;
+}
+.buy-header {
+  margin-left: 2rem;
+  font-family: Montserrat;
+}
+
+.check {
+  padding: 1.2rem 1.2rem;
+  font-size: 2rem;
+}
+
+.buy-bitcoin {
+  font-size: 1.2rem;
+  padding-right: 20px;
+}
+
+/* ---card--- */
+.card {
+  background-color: #0a2050;
+  height: 550px;
+  width: 400px;
+  border-radius: 48px;
+  padding: 20px;
+  font-size: 24px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  margin-left: 4rem;
+}
+
+.litcoin {
+  color: #053d5a;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 12px 16px;
+  background-color: white;
+}
+
+.bit {
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 12px 16px;
+  color: coral;
+  background-color: white;
+}
+
+.ethe {
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 12px 16px;
+  color: rgb(82, 80, 80);
+  background-color: white;
+}
+
+.increase {
+  font-weight: bold;
+  color: #14ff00;
+  margin-left: 4rem;
+}
+
+.left-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.increase {
+  padding: 15px;
+}
+
+/* =========Footer============ */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 4rem;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Montserrat;
+  background-color: #00092a;
+}
+.foot-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 40px;
+}
+
+.details {
+  line-height: 1.6;
+}
+
+/* ============= */
+.copyright {
+  text-align: center;
+  padding: 5px;
+}
